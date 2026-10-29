@@ -1,0 +1,97 @@
+/* Google fonts use for get more high quality fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.google-fonts {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.arvo-bold {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.arvo-regular-italic {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.arvo-bold-italic {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* close the fonts of google  */
+
+/* header items style (head section)  */
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    align-items: center;
+}
+
+header {
+    background-color: bisque;
+}
+
+.navar a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    color: rgb(56, 55, 55);
+    font-size: 1.4em;
+}
+
+/* G3-Architec  */
+.G3-Architec {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+/* navigation a 2 passe gap dite  */
+nav {
+    padding: 0 40px;
+}
+
+.styles:hover {
+    background-color: #ca0ea7;
+    /* ব্যাকগ্রাউন্ড একটু হালকা হবে */
+    color: whitesmoke;
+    padding: 3px;
+    border-radius: 4px;
+
+}
+
+/* button styles  */
+.primary-btn {
+    font-size: 1.4em;
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+.primary-btn:hover {
+    background-color: #ca0ea7;
+    color: aliceblue;
+}
+
+.head-2 {
+    text-align: center;
+    margin: 30px;
+}
+
+/* banner image  */
+.img-first img {
+
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
